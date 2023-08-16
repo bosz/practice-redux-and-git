@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="rounded m-2 border border-dark">
       <div className="p-3">
-        <h1 className="mb-5 text-center">Welcome todo list</h1>
+        <h1 className="mb-5 text-center text-danger">Welcome todo list</h1>
         <NewTodo />
         <ListOfTodos />
         <LogAllTodo />

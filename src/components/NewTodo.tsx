@@ -20,7 +20,7 @@ function NewTodo() {
       />
       <button
         disabled={loading}
-        className=" btn-block btn btn-primary"
+        className=" btn-block btn btn-success"
         onClick={addTodo}
       >
         {loading ? "Saving..." : "Add Todo Item"}
